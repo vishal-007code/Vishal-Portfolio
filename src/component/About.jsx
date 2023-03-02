@@ -23,7 +23,7 @@ const About = () => {
             where I have been able to explore my interests in Web Technologies,
             Mobile Application, and Area Related to new Technologies. In
             addition to my studies, I am also actively involved in
-            extracurricular activities on campus. I ama member of Football Club,
+            extracurricular activities on campus. I am a member of Football Club,
             where I have had the opportunity to develop my leadership and
             teamwork skills while working with others who share similar
             interests. I am also involved in , which allows me to give back to
