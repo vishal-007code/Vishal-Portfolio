@@ -16,23 +16,33 @@ const About = () => {
           </div>
 
           <p className="text-xl mt-20">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-            deserunt illum mollitia officiis qui exercitationem perferendis
-            neque quasi a recusandae necessitatibus tempora iusto! Blanditiis
-            error iste, totam fugiat recusandae rerum laborum perferendis
-            molestiae aperiam asperiores nemo. Magni dolor maxime debitis vitae,
-            eaque hic ab mollitia voluptatibus, a nostrum eveniet laborum!
+            My name is Vishal Vats, and I am a college student currently
+            pursuing my B.Tech at Maharshi Dayanand University. Ever since I was
+            young, I have been fascinated by the world around me and how it
+            works. This curiosity led me to pursue a degree in Computer Science,
+            where I have been able to explore my interests in Web Technologies,
+            Mobile Application, and Area Related to new Technologies. In
+            addition to my studies, I am also actively involved in
+            extracurricular activities on campus. I ama member of Football Club,
+            where I have had the opportunity to develop my leadership and
+            teamwork skills while working with others who share similar
+            interests. I am also involved in , which allows me to give back to
+            the community and make a positive impact on the world around me.
+            When I'm not studying or participating in extracurricular
+            activities, you can usually find me Reading Novel,Books and Watching Anime. I love
+            My hobby because it allows me to relax and unwind while also
+            challenging myself to learn and grow. In the future, I hope to
+            Become a Good Developer. I believe that my education and experiences at
+            Maharshi Dayanand University have prepared me well for this career
+            path, and I am excited to see where my journey will take me.
           </p>
 
           <br />
 
           <p className="text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            pariatur, vel similique sint, nobis aspernatur ut praesentium
-            explicabo ipsam aliquid quasi laboriosam et culpa possimus
-            repudiandae quisquam ullam maiores ab unde. Fugiat odio mollitia
-            nemo alias. Commodi facilis atque nulla vero voluptatem explicabo.
-            Quibusdam, magni quo! Eum cupiditate debitis labore.
+            Thank you for taking the time to read my about page. I look forward
+            to connecting with you and learning more about your own interests
+            and experiences.
           </p>
         </div>
       </div>

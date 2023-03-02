@@ -4,11 +4,14 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import java from "../assets/java.png";
+import Python from "../assets/python.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-// import NavBar from "./NavBar";
+import figma from "../assets/figma.png";
+import git from "../assets/git.png";
+import linux from "../assets/linux.png";
+
 
 const Experience = () => {
   const techs = [
@@ -44,21 +47,39 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: java,
+      title: "Java",
+      style: "shadow-red-600",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: Python,
+      title: "Python",
+      style: "shadow-blue-400",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: git,
+      title: "Git",
+      style: "shadow-red-400",
+    },
+    {
+      id: 10,
+      src: figma,
+      title: "Figma",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 11,
+      src: linux,
+      title: "Linux",
+      style: "shadow-stone-400",
     },
   ];
 
