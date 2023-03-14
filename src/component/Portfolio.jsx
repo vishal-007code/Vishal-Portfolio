@@ -1,41 +1,11 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import movieapp from "../assets/portfolio/Movie-app.png"
+// import navbar from "../assets/portfolio/navbar.jpg";
+import movieapp from "../assets/portfolio/Movie-app.png";
 import whiteboard from "../assets/portfolio/Whiteboard.png";
+import { BiLinkExternal } from "react-icons/bi";
 
 const Portfolio = () => {
-  const portfolios = [
-    {
-      id: 1,
-      src: arrayDestruct,
-    },
-    {
-      id: 2,
-      src: reactParallax,
-    },
-    {
-      id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: movieapp,
-    },
-    
-    {
-      id: 6,
-      src: whiteboard,
-    },
-  ];
-
+  
   return (
     <>
       <div
@@ -51,23 +21,24 @@ const Portfolio = () => {
           </div>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-            {portfolios.map(({ id, src }) => (
-              <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+              <div className="shadow-md shadow-gray-600 rounded-lg">
                 <img
-                  src={src}
-                  alt=""
+                  src={movieapp}
                   className="rounded-md duration-200 hover:scale-105"
                 />
-                <div className="flex items-center justify-center">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" href="">
-                    Demo
-                  </button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Code
-                  </button>
-                </div>
+                <a href="https://63e5f79553d1e563f142ca03--vishal-007code.netlify.app/">
+                  <BiLinkExternal className="absolute left-45% top-44% "/>
+                </a>
               </div>
-            ))}
+              <div className="shadow-md shadow-gray-600 rounded-lg">
+                <img
+                  src={whiteboard}
+                  className="rounded-md duration-200 hover:scale-105"
+                />
+                <a href="https://63e0dfd8b44d304e0e2334ca--whiteboard-007.netlify.app/">
+                  <BiLinkExternal className=""/>
+                </a>
+              </div>
           </div>
         </div>
       </div>
